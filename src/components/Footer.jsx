@@ -70,7 +70,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="text-xs text-zinc-400 font-sans mt-2 max-w-sm">
-                Software Developer and Year 3 Information Technology undergraduate at Norton University in Phnom Penh, Cambodia.
+                Software Developer and {personalInfo.academicYear} Information Technology undergraduate at {personalInfo.university} in {personalInfo.locationDetails}.
               </p>
             </div>
 

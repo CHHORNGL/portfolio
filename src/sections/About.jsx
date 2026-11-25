@@ -67,7 +67,7 @@ export default function About() {
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                   <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-white/[0.08] border border-white/[0.12] text-[10px] font-mono text-white mb-2.5 backdrop-blur-md">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    <span>NORTON UNIVERSITY · YEAR 3</span>
+                    <span>NORTON UNIVERSITY · {personalInfo.academicYear.toUpperCase()}</span>
                   </div>
                   <h3 className="text-xl font-bold text-white font-mono tracking-tight">
                     {personalInfo.displayName}

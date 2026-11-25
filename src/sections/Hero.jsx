@@ -64,7 +64,7 @@ export default function Hero() {
                   {personalInfo.displayName}
                 </h1>
                 <p className="text-xs sm:text-sm font-mono text-zinc-400 mt-2">
-                  Chea Cheavchhorng · Year 3 IT Undergrad
+                  {personalInfo.fullName} · {personalInfo.academicYear} IT Undergrad
                 </p>
                 <div className="flex items-center gap-2 mt-2 text-[11px] font-mono text-zinc-500">
                   <Terminal className="w-3 h-3 text-sky-400" />

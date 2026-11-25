@@ -72,7 +72,7 @@ export default function Navbar() {
               CHHORNG
             </span>
             <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-widest hidden sm:inline">
-              YEAR 3 IT // NORTON
+              {personalInfo.academicYear.toUpperCase()} IT // NORTON
             </span>
           </div>
         </a>

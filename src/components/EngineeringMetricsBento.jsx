@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, FolderGit2, Layers, Database, ArrowUpRight, MapPin, Terminal } from 'lucide-react';
+import { personalInfo } from '../data/personal';
 
 const metrics = [
   {
     index: '01',
     tag: 'ACADEMIC STANDING',
     title: 'Bachelor of IT',
-    highlight: 'Year 3 Student',
+    highlight: `${personalInfo.academicYear} Student`,
     description: 'Undergraduate student at Norton University focusing on practical software engineering, database design, and systems architecture.',
     icon: GraduationCap,
     meta: 'Norton University · Phnom Penh',

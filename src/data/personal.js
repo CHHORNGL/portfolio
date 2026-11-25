@@ -2,31 +2,32 @@ export const personalInfo = {
   name: "CHHORNG",
   fullName: "Chea Cheavchhorng",
   displayName: "CHHORNG",
-  role: "Software Developer · Year 3 IT Undergrad",
+  role: "Software Developer · Year 4 IT Undergrad",
   university: "Norton University",
   degree: "Bachelor of Information Technology",
-  year: "3rd Year",
+  year: "4th Year",
+  academicYear: "Year 4",
   location: "Cambodia",
   locationDetails: "Phnom Penh, Cambodia",
   timezone: "Phnom Penh // UTC+7",
   statusBadge: "AVAILABLE FOR WORK // 2026",
-  taglineBadge: "YEAR 3 IT • NORTON UNIVERSITY",
+  taglineBadge: "YEAR 4 IT • NORTON UNIVERSITY",
   availabilityBadge: "Open to Internships & Projects",
   heroHeading: "CHHORNG",
-  heroSecondaryHeading: "Software Developer & Year 3 IT Student at Norton University.",
+  heroSecondaryHeading: "Software Developer & Year 4 IT Student at Norton University.",
   heroDescription:
     "Passionate software engineering undergraduate based in Phnom Penh, Cambodia. Focused on building production-grade full-stack systems, cross-platform mobile apps with Flutter, secure asynchronous APIs, relational database architectures, and practical AI expert systems.",
-  heroSubtext: "Phnom Penh, Cambodia · Norton University · Year 3 IT",
+  heroSubtext: "Phnom Penh, Cambodia · Norton University · Year 4 IT",
 
   stats: [
-    { label: "ACADEMIC LEVEL", value: "Year 3", detail: "Norton University" },
+    { label: "ACADEMIC LEVEL", value: "Year 4", detail: "Norton University" },
     { label: "CORE SYSTEMS", value: "04", detail: "Mobile · Backend · AI · Web" },
     { label: "PRIMARY STACKS", value: "06+", detail: "Flutter · FastAPI · Oracle · Laravel" }
   ],
 
   aboutHeading: "About Me",
   aboutParagraphs: [
-    "I'm Chea Cheavchhorng (known as CHHORNG), a 3rd-year Information Technology student at Norton University in Phnom Penh, Cambodia. I am deeply dedicated to software engineering, systems design, and creating robust digital solutions.",
+    "I'm Chea Cheavchhorng (known as CHHORNG), a 4th-year Information Technology student at Norton University in Phnom Penh, Cambodia. I am deeply dedicated to software engineering, systems design, and creating robust digital solutions.",
     "My hands-on projects span cross-platform mobile applications in Flutter, asynchronous backend services with FastAPI and Docker, enterprise transactional systems powered by Oracle Database 19c and MySQL, and rule-based agricultural AI systems. I continually refine my architecture patterns, code quality, and engineering problem-solving."
   ],
 
@@ -45,7 +46,7 @@ export const personalInfo = {
     },
     {
       title: "UNDERGRADUATE LEVEL",
-      value: "Year 3 Student",
+      value: "Year 4 Student",
       subtitle: "Active 2026 Academic Session",
       icon: "Sparkles"
     },
@@ -72,7 +73,7 @@ export const personalInfo = {
   education: {
     institution: "Norton University",
     degree: "Bachelor of Information Technology",
-    period: "Year 3 Undergraduate",
+    period: "Year 4 Undergraduate",
     location: "Phnom Penh, Cambodia",
     relevantAreas: [
       "Software Development",

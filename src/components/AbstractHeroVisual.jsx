@@ -9,7 +9,7 @@ export default function AbstractHeroVisual() {
 
   const handleCopy = () => {
     navigator.clipboard?.writeText(
-      `// CHHORNG (Chea Cheavchhorng)\n// Year 3 IT Undergrad @ Norton University\n// GitHub: https://github.com/CHHORNGL`
+      `// ${personalInfo.displayName} (${personalInfo.fullName})\n// ${personalInfo.academicYear} IT Undergrad @ ${personalInfo.university}\n// GitHub: ${personalInfo.contact.github}`
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -122,7 +122,7 @@ export default function AbstractHeroVisual() {
                 {/* Code Body */}
                 <div className="flex-1 flex flex-col gap-1">
                   <div>
-                    <span className="text-zinc-500">// CHHORNG · Norton University · Year 3</span>
+                    <span className="text-zinc-500">// {personalInfo.displayName} · {personalInfo.university} · {personalInfo.academicYear}</span>
                   </div>
                   <div>
                     <span className="text-zinc-400 font-bold">export const</span>{' '}
@@ -139,7 +139,7 @@ export default function AbstractHeroVisual() {
                   </div>
                   <div className="pl-4">
                     <span className="text-zinc-400">academicLevel:</span>{' '}
-                    <span className="text-zinc-200">"Year 3 Undergraduate"</span>,
+                    <span className="text-zinc-200">"{personalInfo.education.period}"</span>,
                   </div>
                   <div className="pl-4">
                     <span className="text-zinc-400">institution:</span>{' '}
@@ -305,8 +305,8 @@ export default function AbstractHeroVisual() {
           <Cpu className="w-4 h-4" />
         </div>
         <div>
-          <p className="text-[11px] font-mono font-bold text-white">Year 3 IT Undergrad</p>
-          <p className="text-[10px] font-mono text-zinc-500">Norton University</p>
+          <p className="text-[11px] font-mono font-bold text-white">{personalInfo.academicYear} IT Undergrad</p>
+          <p className="text-[10px] font-mono text-zinc-500">{personalInfo.university}</p>
         </div>
       </motion.div>
     </div>
